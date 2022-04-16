@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/ordersFragment">
+
+    <fragment
+        android:id="@+id/ordersFragment"
+        android:name="com.mindlab.intrest_agent_android.presentation.orders.order.OrdersFragment"
+        android:label="OrdersFragment" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.mindlab.intrest_agent_android.presentation.history.HistoryFragment"
+        android:label="HistoryFragment" />
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.mindlab.intrest_agent_android.presentation.menu.MenuFragment"
+        android:label="MenuFragment" />
+    <fragment
+        android:id="@+id/deliverFragment"
+        android:name="com.mindlab.intrest_agent_android.presentation.cost.CostFragment"
+        android:label="DeliverFragment" />
+</navigation>
